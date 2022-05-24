@@ -7,7 +7,6 @@
     <Card3/><br>
     <Card4/><br>
     <Card6/>
-
     <div class="q-mt-xl"></div>
   </div>
 </template>
