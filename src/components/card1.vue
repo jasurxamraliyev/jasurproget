@@ -1,28 +1,27 @@
 <template>
   <div>
-      <q-card class="my-card">
-          <img style="width:500px" src="https://wallbox.ru/wallpapers/main/201132/zhivotnye-loshadi-koni-53cb866.jpg" alt="">
+      <q-card class="m-card">
+        <div>
+          <img style="width:100%" src="https://wallbox.ru/wallpapers/main/201132/zhivotnye-loshadi-koni-53cb866.jpg" alt="">
+
+        </div>
         <div class="my-card q-ml-md">
-             <div class="my-card ">
+             <div >
                 <div class="text-h7 text-weight-light">BoxStore - Multipurpose Magento Theme...</div>
                 <div class="text text-weight-light"><i>Amet consectetur adipisicing elit.</i></div>
-                
             </div><br>
-          
-                <div class="text-h6"> <s>$16</s> <span style="color:red;">$11</span></div>
-                <q-icon name="star" style="font-size:20px;color:coral;"></q-icon>
-                <q-icon name="star" style="font-size:20px;color:coral;"></q-icon>
-                <q-icon name="star" style="font-size:20px;color:coral;"></q-icon>
-                <q-icon name="star" style="font-size:20px;color:coral;"></q-icon>
-                <q-icon name="star" style="font-size:20px;color:coral;"></q-icon>(4)
-                <div class="q-mt-sm">63 Sales</div>
-                <div class="margin ">
-                    <q-icon class="q-mr-md border" name="fas fa-shopping-cart" ></q-icon>
-                    <q-btn style="width:130px;height:40px">Live Preview</q-btn>
-                </div>
-           
-               
-        </div>  
+            <div class="text-h6"> <s>$16</s> <span style="color:red;">$11</span></div>
+            <q-icon name="star" style="font-size:20px;color:coral;"></q-icon>
+            <q-icon name="star" style="font-size:20px;color:coral;"></q-icon>
+            <q-icon name="star" style="font-size:20px;color:coral;"></q-icon>
+            <q-icon name="star" style="font-size:20px;color:coral;"></q-icon>
+            <q-icon name="star" style="font-size:20px;color:coral;"></q-icon>(4)
+            <div class="q-mt-sm">63 Sales</div>
+            <div class="margin ">
+              <q-icon class="q-mr-md border" name="fas fa-shopping-cart" ></q-icon>
+              <q-btn style="width:130px;height:40px">Live Preview</q-btn>
+          </div>
+        </div>
       </q-card>
   </div>
 </template>
@@ -34,8 +33,10 @@ export default {
 </script>
 
 <style>
-    .my-card{
-        width: 350px;
+    .m-card{
+        width: 340px;
+        height: 499px;
+
     }
     .border{
         width: 30px;
