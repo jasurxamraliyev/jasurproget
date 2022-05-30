@@ -18,7 +18,7 @@
             <q-icon name="star" style="font-size:20px;color:coral;"></q-icon>(4)
             <div class="q-mt-sm">63 Sales</div>
             <div class="margin ">
-              <q-icon class="q-mr-md border" name="fas fa-shopping-cart" ></q-icon>
+              <q-icon class="q-mr-md  border" name="fas fa-shopping-cart" ></q-icon>
               <q-btn style="width:130px;height:40px">Live Preview</q-btn>
           </div>
         </div>
